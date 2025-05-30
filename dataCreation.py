@@ -25,13 +25,6 @@ print("="*80)
 # STEP 1: CREATING AND LOADING DATA FROM CSV
 # ============================================================================
 
-print("\n" + "="*60)
-print("1. CREATING OBJECTS AND LOADING CSV DATA")
-print("="*60)
-
-# First, let's create our CSV dataset (run the generator first)
-# For this example, we'll create the data directly in code, then save and reload it
-
 # Generate the dataset
 np.random.seed(42)
 n_records = 5000
